@@ -19,5 +19,11 @@
     "@angular/platform-browser-dynamic": "~13.3.11",
     "@types/node": "^12.11.1",
     "typescript": "~4.6.4"
+  },
+  "scripts": {
+    "build": "ng build",
+    "demo": "cd ../demo && npm install && ng serve",
+    "package": "ng build && cd dist/powerbi-client-angular && npm pack",
+    "test": "ng test"
   }
 }
